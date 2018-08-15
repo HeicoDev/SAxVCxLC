@@ -226,6 +226,7 @@ cars
 611, 	utiltr1, 	utiltr1, 	trailer,	UTIL_TR1, 	UTILTR1, 	null,	ignore,	 	4,	0,	0,		-1, 0.68, 0.68,		-1
 
 #SAxVCxLC Cars
+# Vice City
 # Id,	Model name, 	Txd name,	Type 	HandlingId	Game name, 	Anims	Class		Frq	flags   Comprules
 20000, 	vclovefist,  vclovefist, car, 	    VCLOVEFIST, VCLOVEF, 	null,	normal,		4, 	0,	0,		-1, 0.70, 0.70,		0
 20001, 	VCambulan, 	VCambulan, 	car, 		VCAMBULAN, 	VCAMBUL, 	van,	ignore,		10,	0,	0,		-1, 0.864, 0.864,	-1
@@ -240,22 +241,36 @@ cars
 20010, 	vcvoodoo, 	vcvoodoo, 	car, 		VCVOODOO, 	VCVOODO, 	null,	poorfamily,	10, 	0,	0,		-1, 0.7, 0.7,		0
 20011, 	vcsenXS, 	vcsenXS, 	car, 		VCSENXS, 	VCSENXS, 	null,	normal,		10, 	0,	0,		-1, 0.7, 0.7,		0
 20012, 	vcstretch,	vcstretch, 	car, 		VCSTRETCH, 	VCSTRET, 	null,	executive, 	5,	0,	0,		-1, 0.75, 0.75,		0
-# cj2000 cars
-20013, 	xbellyup, 	xbellyup, 	car, 		MULE, 		XBELLYU, 	null,	worker, 	10, 	0,	0,		-1, 0.76, 0.76,		-1       
-20014, 	xhoods, 	xhoods, 	car, 		BURRITO,	XHOODS,      van,	normal, 	10,	0,	0,		-1, 0.7, 0.7,		-1       
-20015, 	xyardie, 	xyardie, 	car, 		ESPERANT, 	XYARDIE, 	null,	normal,		10, 	0,	0,		-1, 0.64, 0.64,		0       
-20016, 	xcolumb, 	xcolumb, 	car, 		BOBCAT, 	XCOLUMB, 	null,	normal, 	10,	0,	0,		-1, 0.84, 0.84,		-1          
-20017, 	xmafia,         xmafia,         car,            SENTINEL,       XMAFIA,		null,	richfamily, 	10, 	0,	0,		-1, 0.7, 0.7,		0  
-20018, 	xmrwong, 	xmrwong, 	car, 		MULE, 		XMRWONG, 	null,	worker, 	10, 	0,	0,		-1, 0.76, 0.76,		-1      
-20019, 	xfbicar, 	xfbicar, 	car, 		WASHING, 	XFBICAR, 	null,	ignore,	10, 	0,	0,		-1, 0.65, 0.65,		0
-20020, 	xcopcarru,	xcopcarru,	car, 		POLRANGER, 	XRANGER,		null,	ignore,		10,	0,	0,		-1, 0.95, 0.95,	-1
-20021,	xdiablos, 	xdiablos, 	car, 		STALLION, 	XDIABLO, 	null,	normal,		10, 	0,	3210,		-1, 0.7, 0.7,		0  
-20022, 	xdeluxo, 	xdeluxo, 	car, 		BUFFALO, 	XDELUXO, 	null,	executive, 	5, 	0,	0,		-1, 0.7, 0.7,		0
-20023, 	xsabretur, 	xsabretur, 	car, 		SABRE,	 	XSABRE, 		null,	normal,		10, 	0,	2ff0,		-1, 0.7, 0.7,		0
-20024, 	xyakuza, 	xyakuza, 	car, 		BANSHEE,	XYAKUZA, 	null,	executive, 	5, 	0,	0,		-1, 0.7, 0.7,		0 
-20025, 	xcopcarlc, 	xcopcarlc, 	car, 		POLICE_VC, 	LCPOLIC,	null,	ignore,		10,	0,	0,		-1, 0.7, 0.7,	-1
-20026, 	Xkuruma,        Xkuruma,        car,            SENTINEL,       XKURUMA,		null,	richfamily, 	10, 	0,	0,		-1, 0.7, 0.7,		0  
-20027, 	Xnoodleboy, 	Xnoodleboy, 	car, 		MULE, 		XNOODLE, 	null,	worker, 	10, 	0,	0,		-1, 0.76, 0.76,		-1      
-20028, 	Xborgnine, 	Xborgnine, 	car, 		VCKAUFMAN, 	XBORGNI, 	null,	taxi,	 	6, 	0,	1f10,		-1, 0.7, 0.7,		0
-20029, 	Xidaho,         Xidaho,        car,            SENTINEL,        XIDAHO,		null,	richfamily, 	10, 	0,	0,		-1, 0.7, 0.7,		0  
+20013, 	vcdeluxo, 	vcdeluxo, 	car, 		BUFFALO, 	VCDELUX, 	null,	executive, 	5, 	0,	0,			-1, 0.7, 0.7,		0
+20014, 	vcsabretur,	vcsabretur,	car, 		SABRE,	 	VCSABRE, 	null,	normal,		10, 	0,	2ff0,	-1, 0.7, 0.7,		0
+20015, 	vcidaho,    vcidaho,    car,        SENTINEL,   VCIDAHO,	null,	richfamily, 10, 	0,	0,		-1, 0.7, 0.7,		0  
+20016, 	vcspand, 	vcspand, 	car, 		MULE, 		VCSPAND, 	null,	worker, 	10, 	0,	0,		-1, 0.76, 0.76,		-1
+20017, 	vcsentinel, vcsentinel, car, 		VCSENXS, 	VCSENTI, 	null,	normal,		10, 	0,	0,		-1, 0.7, 0.7,		0
+20018, 	vcadmiral, 	vcadmiral, 	car, 		ADMIRAL, 	VCADMIR, 	null,	richfamily, 	10,	0,	0,		-1, 0.68, 0.68,		0
+20019,	vcbobcat, 	vcbobcat, 	car, 		BOBCAT, 	VCBOBCA, 	null,	worker, 	10, 	0,	0,		-1, 0.7, 0.7,		0
+20020,	vccheetah, 	vccheetah, 	car, 		CHEETAH, 	VCCHEET, 	null,	executive, 	5, 	0,	0,		-1, 0.68, 0.68,		0
+20021,	vccomet,	vccomet,	car, 		COMET,	 	VCCOMET, 	null,	executive, 	5, 	0,	2ff0,		-1, 0.7, 0.7,		0
+20022,	vcfaggio,	vcfaggio,	bike,		MOPED,		VCFAGGI,	bikev,	moped,		10,	0,	0,		16, 0.464, 0.464,	-1
+20023,	vcmesa, 	vcmesa, 	car, 		MESA,	 	VCMESA, 	null,	normal, 	8,	0,	0,		-1, 0.8, 0.8,		0
+20024,	vcoceanic, 	vcoceanic, 	car, 		OCEANIC, 	VCOCEAN, 	null,	normal,		10, 	0,	0,		-1, 0.7, 0.7,		0
+# Vice City Stories
+# Liberty City 
+20025, 	copcarlc,	copcarlc,	car, 		POLICE_VC, 	LCPOLIC,	null,	ignore,		10,	0,	0,			-1, 0.7, 0.7,		-1
+20026, 	lcbellyup, 	lcbellyup, 	car, 		MULE, 		LCBELLY, 	null,	worker, 	10, 	0,	0,		-1, 0.76, 0.76,		-1       
+20027, 	lchoods, 	lchoods, 	car, 		BURRITO,	LCHOODS,    van,	normal, 	5,	0,	0,			-1, 0.7, 0.7,		-1       
+20028, 	lcyardie, 	lcyardie, 	car, 		ESPERANT, 	LCYARDI, 	null,	normal,		7, 	0,	0,		-1, 0.64, 0.64,		0       
+20029, 	lccolumb, 	lccolumb, 	car, 		BOBCAT, 	LCCOLUM, 	null,	normal, 	10,	0,	0,			-1, 0.84, 0.84,		-1          
+20030, 	lcmafia,    lcmafia,    car,        SENTINEL,   LCMAFIA,	null,	richfamily, 8, 	0,	0,		-1, 0.7, 0.7,		0  
+20031, 	lcmrwong, 	lcmrwong, 	car, 		MULE, 		LCMRWON, 	null,	worker, 	8, 	0,	0,		-1, 0.76, 0.76,		-1      
+20032, 	lcfbicar, 	lcfbicar, 	car, 		WASHING, 	LCFBICA, 	null,	ignore,		10, 	0,	0,		-1, 0.65, 0.65,		0
+20033,	lcdiablos, 	lcdiablos, 	car, 		STALLION, 	LCDIABL, 	null,	normal,		8, 	0,	3210,	-1, 0.7, 0.7,		0  
+20034, 	lcyakuza, 	lcyakuza, 	car, 		BANSHEE,	LCYAKUZ, 	null,	executive, 	7, 	0,	0,			-1, 0.7, 0.7,		0 
+20035, 	lckuruma,   lckuruma,   car,        SENTINEL,   LCKURUM,	null,	richfamily, 10, 	0,	0,		-1, 0.7, 0.7,		0  
+20036, 	lcborgnine,	lcborgnine,	car, 		VCKAUFMAN, 	LCBORGN, 	null,	taxi,	 	6, 	0,	1f10,		-1, 0.7, 0.7,		0
+20037, 	lcblista, 	lcblista, 	car, 		MOONBEAM, 	LCBLIST, 	null,	normal,		9, 	0,	0,		-1, 0.7, 0.7,		0
+20038, 	lctoyz,		lctoyz,		car, 		PONY, 		LCTOYZ, 	van,	worker,		9, 	0,	0,		-1, 0.72, 0.72,		-1
+# Liberty City Stories
+20039, 	lcsnoodleb, lcsnoodleb,	bike,		MOPED,		LCSNOOD,	bikev,	normal,		4,	1,	0,		16, 0.464, 0.464,	-1
+20040, 	lcsforelli, lcsforelli, car,        SENTINEL,   LCSFORE,	null,	richfamily, 7, 	0,	0,		-1, 0.7, 0.7,		0  
+20041, 	lcssindacc, lcssindacc, car, 		REGINA, 	LCSSIND, 	null,	normal,		7, 	0,	0,		-1, 0.7, 0.7,		0
 end
